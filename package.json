@@ -4,7 +4,11 @@
   "description": "lab 3 demo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test test/**/*.test.js",
+    "test:watch": "node --test --watch test/**/*.test.js",
+    "lint": "echo \"Linting will be configured in Step 3\"",
+    "format": "echo \"Formatting will be configured in Step 3\"",
+    "docs": "echo \"Documentation generation will be configured in Step 3\""
   },
   "repository": {
     "type": "git",
@@ -20,5 +24,6 @@
     "eslint": "^9.35.0",
     "jsdoc": "^4.0.4",
     "prettier": "^3.6.2"
-  }
+  },
+  "type": "module"
 }
