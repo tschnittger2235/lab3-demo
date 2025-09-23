@@ -58,4 +58,3 @@ export class Die {
     this.#currentValue = null;
   }
 }
-
